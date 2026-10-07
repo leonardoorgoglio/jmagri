@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMAGRI - Hồ Sơ Năng Lực & Sản Xuất Nông Sản Chất Lượng Cao</title>
+  <meta name="description" content="JMAGRI - Nhà chế biến, xuất khẩu nông sản & gạo hàng đầu Việt Nam. Chuyên cung cấp gạo ST25, Jasmine, Lứt và dịch vụ đóng gói bao bì OEM/ODM chuẩn xuất khẩu.">
+  <meta name="keywords" content="JMAGRI, gạo ST25, gạo xuất khẩu, sản xuất nông sản, đóng gói bao bì gạo, gạo Jasmine, gạo lứt, OEM gạo">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            agri: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              600: '#16a34a',
+              800: '#1b4332',
+              900: '#0d2818',
+            },
+            gold: {
+              400: '#f39c12',
+              500: '#d4af37',
+              600: '#b89628',
+            },
+            cream: '#faf9f5',
+          },
+          fontFamily: {
+            sans: ['"Be Vietnam Pro"', 'sans-serif'],
+            heading: ['"Outfit"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+<body class="bg-[#faf9f5] text-slate-800 font-sans antialiased selection:bg-agri-800 selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT / UTILITY BAR -->
+  <div class="bg-agri-900 text-slate-200 text-xs py-2 px-4 border-b border-agri-800/50">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center"><i class="fa-solid fa-square-check text-gold-500 mr-2"></i>Tiêu chuẩn Xuất khẩu: ISO 22000 | HACCP | VietGAP | FDA</span>
+        <span class="hidden md:inline-flex items-center"><i class="fa-solid fa-globe text-gold-500 mr-2"></i>Xuất khẩu trên 30+ quốc gia & vùng lãnh thổ</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <a href="tel:0988888888" class="hover:text-gold-500 transition-colors"><i class="fa-solid fa-phone text-gold-500 mr-1.5"></i>Hotline OEM: (+84) 988.888.888</a>
+        <span class="text-slate-600">|</span>
+        <a href="mailto:contact@jmagri.vn" class="hover:text-gold-500 transition-colors"><i class="fa-solid fa-envelope text-gold-500 mr-1.5"></i>contact@jmagri.vn</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION HEADER -->
+  <header id="main-header" class="sticky top-0 z-40 glass-header transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- BRAND LOGO -->
+        <a href="#hero" class="flex items-center space-x-3 group">
+          <div class="w-11 h-11 rounded-xl bg-agri-800 text-gold-500 flex items-center justify-center text-2xl shadow-lg group-hover:scale-105 transition-transform duration-300">
+            <i class="fa-solid fa-wheat-awn"></i>
+          </div>
+          <div>
+            <span class="font-heading font-extrabold text-2xl tracking-wider text-agri-900 block leading-none">JMAGRI</span>
+            <span class="text-[10px] font-semibold tracking-widest text-gold-600 uppercase block mt-1">VIETNAM AGRICULTURAL</span>
+          </div>
+        </a>
+
+        <!-- DESKTOP NAVIGATION LINKS -->
+        <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-slate-700">
+          <a href="#hero" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Trang chủ</a>
+          <a href="#about" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Về chúng tôi</a>
+          <a href="#capabilities" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Năng lực sản xuất</a>
+          <a href="#products" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Sản phẩm Gạo</a>
+          <a href="#packaging" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Quy cách bao bì</a>
+          <a href="#contact" class="hover:text-agri-800 transition-colors py-2 border-b-2 border-transparent hover:border-gold-500">Liên hệ</a>
+        </nav>
+
+        <!-- CTA BUTTONS -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="#contact" class="px-5 py-2.5 rounded-lg border border-agri-800 text-agri-800 font-semibold text-xs uppercase tracking-wider hover:bg-agri-800 hover:text-white transition-all duration-300 shadow-sm">
+            <i class="fa-solid fa-file-pdf mr-1.5 text-gold-600"></i>Profile Company
+          </a>
+          <a href="#contact" class="px-5 py-2.5 rounded-lg bg-agri-800 text-white font-semibold text-xs uppercase tracking-wider hover:bg-agri-900 transition-all duration-300 shadow-md hover:shadow-lg">
+            <i class="fa-solid fa-paper-plane mr-1.5 text-gold-500"></i>Nhận Báo Giá
+          </a>
+        </div>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-agri-900 hover:bg-agri-100 focus:outline-none" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- MOBILE MENU DROPDOWN -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+      <a href="#hero" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Trang chủ</a>
+      <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Về chúng tôi</a>
+      <a href="#capabilities" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Năng lực sản xuất</a>
+      <a href="#products" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Sản phẩm Gạo</a>
+      <a href="#packaging" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Quy cách bao bì</a>
+      <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-800 hover:bg-agri-50 hover:text-agri-800">Liên hệ & Báo giá</a>
+      <div class="pt-3 border-t border-slate-100 flex flex-col space-y-2">
+        <a href="#contact" class="w-full text-center px-4 py-2.5 rounded-lg bg-agri-800 text-white font-semibold text-sm">
+          Nhận Báo Giá Xuất Khẩu
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section id="hero" class="relative py-20 lg:py-28 overflow-hidden bg-gradient-agri text-white">
+    <!-- Background overlay visual -->
+    <div class="absolute inset-0 z-0 opacity-25 mix-blend-overlay">
+      <img src="./assets/images/hero_banner.png" alt="Cánh đồng lúa Việt Nam JMAGRI" class="w-full h-full object-cover">
+    </div>
+    
+    <!-- Subtle glow shapes -->
+    <div class="absolute top-1/4 left-10 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-10 right-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Copy -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 backdrop-blur-md text-xs font-semibold uppercase tracking-wider text-gold-400">
+            <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span>
+            <span>Thương Hiệu Nông Sản Xuất Khẩu Uy Tín</span>
+          </div>
+
+          <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+            JMAGRI – Hạt Ngọc Việt <br>
+            <span class="text-gradient-gold">Vươn Tầm Thế Giới</span>
+          </h1>
+
+          <p class="text-slate-200 text-base sm:text-lg max-w-2xl font-normal leading-relaxed">
+            Chúng tôi tự hào là đơn vị đi đầu trong chuỗi sản xuất, chế biến và phân phối lúa gạo sạch chất lượng cao. Cung ứng giải pháp bao bì thương hiệu trọn gói (OEM/ODM) đáp ứng tiêu chuẩn kiểm định khắt khe nhất của các thị trường khó tính.
+          </p>
+
+          <!-- Key Metrics Pills -->
+          <div class="grid grid-cols-3 gap-4 pt-4 max-w-xl">
+            <div class="p-3.5 rounded-xl bg-white/10 border border-white/15 backdrop-blur-md text-center">
+              <span class="font-heading font-extrabold text-2xl sm:text-3xl text-gold-400 block">50.000+</span>
+              <span class="text-[11px] text-slate-300 font-medium uppercase tracking-wider">Tấn / Năm sản lượng</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/10 border border-white/15 backdrop-blur-md text-center">
+              <span class="font-heading font-extrabold text-2xl sm:text-3xl text-gold-400 block">5.000 Ha</span>
+              <span class="text-[11px] text-slate-300 font-medium uppercase tracking-wider">Vùng trồng VietGAP</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/10 border border-white/15 backdrop-blur-md text-center">
+              <span class="font-heading font-extrabold text-2xl sm:text-3xl text-gold-400 block">30+</span>
+              <span class="text-[11px] text-slate-300 font-medium uppercase tracking-wider">Quốc gia xuất khẩu</span>
+            </div>
+          </div>
+
+          <!-- Hero Actions -->
+          <div class="pt-4 flex flex-wrap gap-4 items-center">
+            <a href="#products" class="px-7 py-3.5 rounded-xl bg-gradient-gold text-agri-900 font-bold text-sm uppercase tracking-wider shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center">
+              <span>Khám Phá Sản Phẩm</span>
+              <i class="fa-solid fa-arrow-right ml-2"></i>
+            </a>
+            <a href="#packaging" class="px-7 py-3.5 rounded-xl bg-white/15 hover:bg-white/25 border border-white/30 text-white font-semibold text-sm uppercase tracking-wider backdrop-blur-md transition-all duration-300 flex items-center">
+              <i class="fa-solid fa-box-open mr-2 text-gold-400"></i>
+              <span>Xem Quy Cách Bao Bì</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 group">
+            <img src="./assets/images/hero_banner.png" alt="Cánh đồng lúa JMAGRI" class="w-full h-[420px] object-cover group-hover:scale-105 transition-transform duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-agri-900/90 via-transparent to-transparent"></div>
+            
+            <!-- Floating Badge Card -->
+            <div class="absolute bottom-6 left-6 right-6 p-5 rounded-xl dark-glass-card text-white space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold uppercase text-gold-400 tracking-widest"><i class="fa-solid fa-award mr-1"></i>Đạt Tiêu Chuẩn Quốc Tế</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/30 text-emerald-300 border border-emerald-400/40">100% Sạch</span>
+              </div>
+              <h3 class="font-heading font-bold text-lg">Gạo Thơm ST25 & Jasmine Xuất Khẩu</h3>
+              <p class="text-xs text-slate-300">Tách màu tự động, tỉ lệ hạt vỡ &lt; 5%, đóng gói hút chân không tiêu chuẩn Châu Âu & Mỹ.</p>
+            </div>
+          </div>
+
+          <!-- Decorative Floating Element -->
+          <div class="hidden sm:flex absolute -bottom-6 -left-6 p-4 rounded-xl bg-white text-slate-900 shadow-xl border border-slate-100 items-center space-x-3 badge-pulse z-20">
+            <div class="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+              <p class="text-xs font-bold text-agri-900">Cam Kết Chất Lượng</p>
+              <p class="text-[11px] text-slate-500">Không dư lượng thuốc BVTV</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST CERTIFICATION TICKER -->
+  <section class="py-6 bg-agri-900/95 border-t border-agri-800 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-center justify-between gap-6 opacity-85">
+        <span class="text-xs font-semibold uppercase tracking-widest text-gold-500 w-full lg:w-auto text-center">Chứng nhận Quốc Tế:</span>
+        <div class="flex flex-wrap items-center justify-center lg:justify-end gap-6 sm:gap-10 text-xs sm:text-sm font-semibold text-white">
+          <span class="flex items-center"><i class="fa-solid fa-certificate text-gold-400 mr-2"></i>ISO 22000:2018</span>
+          <span class="flex items-center"><i class="fa-solid fa-microscope text-gold-400 mr-2"></i>HACCP CODE:2020</span>
+          <span class="flex items-center"><i class="fa-solid fa-leaf text-gold-400 mr-2"></i>VietGAP / GlobalGAP</span>
+          <span class="flex items-center"><i class="fa-solid fa-moon text-gold-400 mr-2"></i>HALAL Certified</span>
+          <span class="flex items-center"><i class="fa-solid fa-check-double text-gold-400 mr-2"></i>FDA Registration</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. VỀ CHÚNG TÔI (ABOUT US & PRODUCTION CAPACITY) -->
+  <section id="about" class="py-20 lg:py-28 relative bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="text-xs font-bold tracking-widest text-gold-600 uppercase px-3 py-1 rounded-full bg-gold-50 border border-gold-200">Giới thiệu Doanh nghiệp</span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-agri-900">Về Chúng Tôi & Năng Lực Sản Xuất</h2>
+        <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
+          JMAGRI tự hào là mắt xích quan trọng nâng tầm giá trị nông sản Việt Nam thông qua chuỗi cung ứng khép kín từ cánh đồng mẫu lớn đến nhà máy chế biến đạt chuẩn quốc tế.
+        </p>
+      </div>
+
+      <!-- Main About Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
+        
+        <!-- Left Image Stack -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 group">
+            <img src="./assets/images/factory_about.png" alt="Nhà máy chế biến gạo JMAGRI" class="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-agri-900/60 via-transparent to-transparent"></div>
+          </div>
+          
+          <!-- Overlaid Info Box -->
+          <div class="absolute -bottom-8 -right-4 sm:right-6 bg-agri-800 text-white p-6 rounded-2xl shadow-xl max-w-xs border border-white/20 hidden sm:block">
+            <div class="flex items-center space-x-3 mb-2">
+              <i class="fa-solid fa-industry text-2xl text-gold-400"></i>
+              <h4 class="font-heading font-bold text-base">Công Nghệ Thụy Sĩ</h4>
+            </div>
+            <p class="text-xs text-slate-200 leading-normal">
+              Dây chuyền máy tách màu quang học Buhler thế hệ mới loại bỏ 99.9% hạt lỗi, hạt xanh và tạp chất.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Vision / Mission / Capability Copy -->
+        <div class="lg:col-span-6 space-y-6">
+          <h3 class="font-heading text-2xl sm:text-3xl font-bold text-agri-900">
+            Đối Tác Cung Ứng Nông Sản Đáng Tin Cậy Cho Doanh Nghiệp & Thị Trường Quốc Tế
+          </h3>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            Được thành lập với sứ mệnh đưa gạo Việt ngon nhất thế giới đến tận tay người tiêu dùng toàn cầu, JMAGRI không ngừng đầu tư hệ thống kho bãi sấy lúa, hệ thống xát lau bóng và phân loại hạt theo tiêu chuẩn xuất khẩu.
+          </p>
+
+          <!-- Core Value Bullet Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+            <div class="p-4 rounded-xl bg-agri-50 border border-agri-100 flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-seedling"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Vùng Nguyên Liệu Chuẩn</h4>
+                <p class="text-xs text-slate-600 mt-1">Liên kết 5.000+ ha canh tác theo quy trình VietGAP, kiểm soát 0% thuốc BVTV.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-agri-50 border border-agri-100 flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-warehouse"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Hệ Thống Kho Bãi</h4>
+                <p class="text-xs text-slate-600 mt-1">Sức chứa 100.000 tấn gạo, kiểm soát nhiệt độ & độ ẩm tự động 24/7.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-agri-50 border border-agri-100 flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-boxes-packing"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Gia Công OEM/ODM</h4>
+                <p class="text-xs text-slate-600 mt-1">Đóng gói nhãn hàng riêng từ 1kg đến 1 tấn theo chính xác yêu cầu đối tác.</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-agri-50 border border-agri-100 flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center shrink-0 font-bold">
+                <i class="fa-solid fa-ship"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Logistics & Xuất Khẩu</h4>
+                <p class="text-xs text-slate-600 mt-1">Hỗ trợ trọn gói thủ tục hải quan, kiểm định C/O, Phytosanitary nhanh chóng.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CAPACITY HIGHLIGHT NUMBERS BANNER -->
+      <div id="capabilities" class="rounded-2xl bg-gradient-agri text-white p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+        <div class="relative z-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
+          <div class="space-y-2 pt-4 md:pt-0">
+            <i class="fa-solid fa-tractor text-3xl text-gold-400 mb-2"></i>
+            <h4 class="font-heading font-extrabold text-3xl sm:text-4xl text-gradient-gold">5.000+ Ha</h4>
+            <p class="text-xs text-slate-300 font-medium uppercase tracking-wider">Cánh đồng liên kết</p>
+          </div>
+          <div class="space-y-2 pt-4 md:pt-0">
+            <i class="fa-solid fa-gears text-3xl text-gold-400 mb-2"></i>
+            <h4 class="font-heading font-extrabold text-3xl sm:text-4xl text-gradient-gold">500 Tấn/Ngày</h4>
+            <p class="text-xs text-slate-300 font-medium uppercase tracking-wider">Công suất xát lau bóng</p>
+          </div>
+          <div class="space-y-2 pt-4 md:pt-0">
+            <i class="fa-solid fa-box text-3xl text-gold-400 mb-2"></i>
+            <h4 class="font-heading font-extrabold text-3xl sm:text-4xl text-gradient-gold">100.000 Túi</h4>
+            <p class="text-xs text-slate-300 font-medium uppercase tracking-wider">Năng lực đóng gói / ngày</p>
+          </div>
+          <div class="space-y-2 pt-4 md:pt-0">
+            <i class="fa-solid fa-earth-americas text-3xl text-gold-400 mb-2"></i>
+            <h4 class="font-heading font-extrabold text-3xl sm:text-4xl text-gradient-gold">30+ Thị Trường</h4>
+            <p class="text-xs text-slate-300 font-medium uppercase tracking-wider">Châu Âu, Mỹ, Trung Đông, Asia</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. SẢN PHẨM & QUY CÁCH ĐÓNG GÓI (PRODUCTS & PACKAGING SHOWCASE) -->
+  <section id="products" class="py-20 lg:py-28 bg-[#f4f2ea] border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <span class="text-xs font-bold tracking-widest text-gold-600 uppercase px-3 py-1 rounded-full bg-gold-100 border border-gold-300">Danh mục nông sản</span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-agri-900">Sản Phẩm Gạo Nổi Bật & Chuẩn Xuất Khẩu</h2>
+        <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
+          Lựa chọn từ các giống lúa thuần chủng hảo hạng nhất Việt Nam, được tuyển chọn kỹ lưỡng và chế biến theo quy trình chuẩn quốc tế.
+        </p>
+      </div>
+
+      <!-- Product Filter Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-12">
+        <button class="tab-btn active px-5 py-2.5 rounded-full border border-slate-300 text-xs sm:text-sm font-semibold transition-all duration-300" data-filter="all">Tất cả sản phẩm</button>
+        <button class="tab-btn px-5 py-2.5 rounded-full border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:border-agri-800 transition-all duration-300" data-filter="thom">Gạo Thơm Cao Cấp</button>
+        <button class="tab-btn px-5 py-2.5 rounded-full border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:border-agri-800 transition-all duration-300" data-filter="xuatkhau">Gạo Xuất Khẩu</button>
+        <button class="tab-btn px-5 py-2.5 rounded-full border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:border-agri-800 transition-all duration-300" data-filter="dinhduong">Gạo Dinh Dưỡng / Lứt</button>
+        <button class="tab-btn px-5 py-2.5 rounded-full border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:border-agri-800 transition-all duration-300" data-filter="nep">Gạo Nếp Đặc Sản</button>
+      </div>
+
+      <!-- PRODUCTS GRID -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+        
+        <!-- Product 1: ST25 -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="thom" data-moisture="< 14%" data-broken="Max 5%" data-purity="99.8%" data-cert="ISO 22000, HACCP, FDA, Organic">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo ST25 JMAGRI" class="product-img w-full h-full object-cover">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-gold-500 text-agri-900 text-[11px] font-bold uppercase tracking-wider">Top 1 World Best Rice</span>
+            <span class="product-cat hidden">Gạo Thơm Cao Cấp</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>Sóc Trăng / ĐBSCL</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-check-circle mr-1"></i>Đạt Chuẩn Xuất Khẩu</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Thơm ST25 Hảo Hạng
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Hạt gạo dài, thon nhỏ, màu trắng trong. Khi nấu chín cho cơm dẻo nhiều, thơm mùi lá dứa tự nhiên, hạt cơm giữ nguyên hình dáng không bị vỡ.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Tỉ lệ tấm: <strong>Max 5%</strong></span>
+                <span class="block">Đóng gói: <strong>1kg - 25kg</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2: Jasmine 85 -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="xuatkhau" data-moisture="< 14%" data-broken="5% / 10% / 15%" data-purity="99.5%" data-cert="ISO 22000, HACCP, Halal">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo Jasmine JMAGRI" class="product-img w-full h-full object-cover filter contrast-125">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-agri-800 text-white text-[11px] font-bold uppercase tracking-wider">Xuất Khẩu Chủ Lực</span>
+            <span class="product-cat hidden">Gạo Xuất Khẩu</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>An Giang / Đồng Tháp</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-check-circle mr-1"></i>Đạt Chuẩn EU/US</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Jasmine 85 Premium
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Dòng gạo thơm phổ biến hàng đầu thị trường xuất khẩu. Cơm mềm, dẻo vừa, hương thơm dịu nhẹ thoang thoảng, giá thành cạnh tranh cho đơn hàng lớn.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Tỉ lệ tấm: <strong>5% / 10%</strong></span>
+                <span class="block">Đóng gói: <strong>Bao PP / Jumbo</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3: Gạo Lứt Huyết Rồng -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="dinhduong" data-moisture="< 13.5%" data-broken="Max 5%" data-purity="99.9%" data-cert="Organic VietGAP, ISO 22000">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo Lứt Huyết Rồng JMAGRI" class="product-img w-full h-full object-cover filter hue-rotate-30 saturate-150">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-red-700 text-white text-[11px] font-bold uppercase tracking-wider">Dinh Dưỡng Cao</span>
+            <span class="product-cat hidden">Gạo Dinh Dưỡng / Lứt</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>Vùng Đất Phèn ĐBSCL</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-heart-pulse mr-1"></i>Giàu Anthocyanin</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Lứt Huyết Rồng Organic
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Giống gạo đỏ giàu vitamin B, chất xơ và vi khoáng tốt cho sức khỏe, hỗ trợ ăn kiêng, tiểu đường và thực dưỡng cao cấp.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Độ ẩm: <strong>&lt; 13.5%</strong></span>
+                <span class="block">Đóng gói: <strong>Túi Zip Vacuum 1-2kg</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4: Gạo Nếp Nương -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="nep" data-moisture="< 14%" data-broken="Max 3%" data-purity="99.5%" data-cert="ISO 22000, VietGAP">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo Nếp Nương JMAGRI" class="product-img w-full h-full object-cover filter brightness-110">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-amber-600 text-white text-[11px] font-bold uppercase tracking-wider">Đặc Sản Tây Bắc</span>
+            <span class="product-cat hidden">Gạo Nếp Đặc Sản</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>Điện Biên / Sơn La</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-crown mr-1"></i>Hạt Tròn Mẩy</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Nếp Nương Điện Biên
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Hạt nếp to tròn, dẻo quánh, hương thơm nồng nàn. Chuyên dùng cho sản xuất bánh chưng, xôi gấc cao cấp và làm nguyên liệu chế biến thực phẩm.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Tỉ lệ tấm: <strong>Max 3%</strong></span>
+                <span class="block">Đóng gói: <strong>5kg - 50kg</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5: Gạo KDM -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="xuatkhau" data-moisture="< 14%" data-broken="Max 5%" data-purity="99.7%" data-cert="ISO 22000, HACCP, Halal, FDA">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo KDM JMAGRI" class="product-img w-full h-full object-cover">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-emerald-800 text-white text-[11px] font-bold uppercase tracking-wider">Xuất Khẩu Trung Đông</span>
+            <span class="product-cat hidden">Gạo Xuất Khẩu</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>Vùng Phù Sa Sông Tiền</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-star mr-1"></i>Hạt Dài Thơm</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Thơm KDM (Khao Dak Mali)
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Dòng gạo đặc sản xuất khẩu sang các thị trường khó tính như Châu Âu, Dubai, Mỹ. Hương vị thơm hoa lài đậm đà, độ dẻo mềm hảo hạng.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Tỉ lệ tấm: <strong>Max 5%</strong></span>
+                <span class="block">Đóng gói: <strong>Bao PP 25kg / 50kg</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6: Gạo Tấm Thơm -->
+        <div class="product-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover-lift group" data-category="thom" data-moisture="< 14%" data-broken="100% Broken" data-purity="99.0%" data-cert="ISO 22000, HACCP">
+          <div class="card-img-wrapper relative h-60 bg-slate-100">
+            <img src="./assets/images/rice_st25.png" alt="Gạo Tấm Thơm JMAGRI" class="product-img w-full h-full object-cover filter contrast-90">
+            <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-slate-700 text-white text-[11px] font-bold uppercase tracking-wider">Nguyên Liệu Chế Biến</span>
+            <span class="product-cat hidden">Gạo Thơm Cao Cấp</span>
+          </div>
+          <div class="p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs text-slate-500">
+              <span><i class="fa-solid fa-location-dot text-gold-600 mr-1"></i>Nhà máy JMAGRI</span>
+              <span class="text-emerald-700 font-semibold"><i class="fa-solid fa-utensils mr-1"></i>Chuỗi Nhà Hàng</span>
+            </div>
+            <h3 class="product-title font-heading text-xl font-bold text-agri-900 group-hover:text-gold-600 transition-colors">
+              Gạo Tấm Thơm Hương Lài
+            </h3>
+            <p class="product-desc text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Tấm hạt gạo thơm sạch tách từ quy trình chế biến gạo Jasmine & ST25. Phù hợp cho các chuỗi quán cơm tấm, nhà hàng và nhà máy chế biến bún/phở.
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+              <div class="text-[11px] text-slate-500">
+                <span class="block">Loại tấm: <strong>Tấm 1/2 - 1/3</strong></span>
+                <span class="block">Đóng gói: <strong>25kg - 50kg</strong></span>
+              </div>
+              <button class="view-spec-btn px-4 py-2 rounded-lg bg-agri-50 text-agri-800 text-xs font-bold hover:bg-agri-800 hover:text-white transition-all">
+                Thông số <i class="fa-solid fa-chevron-right ml-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- KHU VỰC THIẾT KẾ & QUY CÁCH ĐÓNG GÓI (PACKAGING SHOWCASE SECTION) -->
+      <div id="packaging" class="pt-12 border-t border-slate-300">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+          <span class="text-xs font-bold tracking-widest text-gold-600 uppercase px-3 py-1 rounded-full bg-gold-100 border border-gold-300">OEM / ODM Packaging Services</span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-agri-900">Khu Vực Mẫu Thiết Kế & Quy Cách Đóng Gói</h2>
+          <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed pt-2">
+            JMAGRI cung cấp đa dạng giải pháp thiết kế bao bì từ bán lẻ cao cấp đến vận chuyển container xuất khẩu lớn. In ấn sắc nét, bảo quản vượt trội.
+          </p>
+        </div>
+
+        <!-- Packaging Options Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          
+          <!-- Pack 1: Vacuum Pouch -->
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 space-y-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-emerald-50 text-emerald-800 flex items-center justify-center text-2xl group-hover:bg-agri-800 group-hover:text-gold-400 transition-colors">
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+            <span class="inline-block px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-bold uppercase">Túi Siêu Thị / Bán Lẻ</span>
+            <h3 class="font-heading font-bold text-lg text-agri-900">Túi Zip Hút Chân Không (1kg - 5kg)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Chất liệu PA/PE ghép màng phức hợp giữ nguyên hương thơm, chống ẩm mốc và mọt gạo đến 24 tháng. Thiết kế túi định hình hình khối chữ nhật sang trọng.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-1.5 pt-2 border-t border-slate-100">
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Quy cách: 1kg, 2kg, 5kg</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Công nghệ in Gravure 9 màu</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Tích hợp quai xách / Khóa Zip</li>
+            </ul>
+          </div>
+
+          <!-- Pack 2: PP / BOPP Woven Bag -->
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 space-y-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-amber-50 text-amber-800 flex items-center justify-center text-2xl group-hover:bg-agri-800 group-hover:text-gold-400 transition-colors">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <span class="inline-block px-2.5 py-0.5 rounded bg-amber-100 text-amber-800 text-[10px] font-bold uppercase">Hệ Thống Đại Lý</span>
+            <h3 class="font-heading font-bold text-lg text-agri-900">Bao PP Dệt Màng BOPP (10kg - 25kg)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Bao dệt PP chắc chắn lồng túi PE chống thấm nước, ghép màng BOPP bóng hoặc mờ in hình ảnh sống động sắc nét. Thích hợp cho phân phối sỉ & đại lý.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-1.5 pt-2 border-t border-slate-100">
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Quy cách: 10kg, 20kg, 25kg</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Chịu lực quăng quật cực tốt</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>May đay đáy chắc chắn</li>
+            </ul>
+          </div>
+
+          <!-- Pack 3: Jumbo Export Bag -->
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 space-y-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-blue-50 text-blue-800 flex items-center justify-center text-2xl group-hover:bg-agri-800 group-hover:text-gold-400 transition-colors">
+              <i class="fa-solid fa-truck-ramp-box"></i>
+            </div>
+            <span class="inline-block px-2.5 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-bold uppercase">Xuất Khẩu FCL</span>
+            <h3 class="font-heading font-bold text-lg text-agri-900">Bao Jumbo Big Bag (500kg - 1000kg)</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Bao tải trọng lớn chuyên dụng cho xuất khẩu tàu hàng hoặc đóng nguyên container FCL. Có ống nạp/xả và quai nâng cẩu xe nâng tiện lợi.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-1.5 pt-2 border-t border-slate-100">
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Tải trọng: 500kg - 1.000kg</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Tối ưu chi phí bốc xếp</li>
+              <li class="flex items-center"><li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Đạt tiêu chuẩn xếp chồng ISO</li>
+            </ul>
+          </div>
+
+          <!-- Pack 4: Luxury Gift Box -->
+          <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 space-y-4 group">
+            <div class="w-14 h-14 rounded-2xl bg-purple-50 text-purple-800 flex items-center justify-center text-2xl group-hover:bg-agri-800 group-hover:text-gold-400 transition-colors">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <span class="inline-block px-2.5 py-0.5 rounded bg-purple-100 text-purple-800 text-[10px] font-bold uppercase">Quà Tặng Biếu Tết</span>
+            <h3 class="font-heading font-bold text-lg text-agri-900">Hộp Quà Doanh Nghiệp High-End</h3>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Bộ hộp carton cứng ép kim logo, dập nổi sang trọng chứa 2-4 túi hút chân không gạo ST25/Lứt Organic. Quà tặng nông sản ý nghĩa cho đối tác.
+            </p>
+            <ul class="text-xs text-slate-700 space-y-1.5 pt-2 border-t border-slate-100">
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Thiết kế thương hiệu riêng</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Hộp quà kèm túi xách đồng bộ</li>
+              <li class="flex items-center"><i class="fa-solid fa-check text-gold-600 mr-2"></i>Nhận đơn từ 50 bộ</li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- SPECIFICATION MATRIX TABLE -->
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-md p-6 sm:p-8 overflow-x-auto">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <h3 class="font-heading font-bold text-xl text-agri-900">Bảng Đối Chiếu Quy Cách Đóng Gói Chi Tiết</h3>
+              <p class="text-xs text-slate-500">Thông số kỹ thuật bao bì phục vụ đối tác mua sỉ và gia công OEM</p>
+            </div>
+            <a href="#contact" class="px-4 py-2 rounded-lg bg-agri-800 text-white text-xs font-bold hover:bg-agri-900 transition-colors shrink-0">
+              Yêu cầu tư vấn bao bì
+            </a>
+          </div>
+
+          <table class="w-full text-left text-xs sm:text-sm border-collapse">
+            <thead>
+              <tr class="bg-agri-900 text-white font-heading font-semibold uppercase tracking-wider">
+                <th class="p-3 sm:p-4 rounded-l-lg">Loại Bao Bì</th>
+                <th class="p-3 sm:p-4">Trọng Lượng Tịnh</th>
+                <th class="p-3 sm:p-4">Cấu Trúc Vật Liệu</th>
+                <th class="p-3 sm:p-4">Hạn Bảo Quản</th>
+                <th class="p-3 sm:p-4 rounded-r-lg">Thị Trường Phù Hợp</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-100 text-slate-700">
+              <tr class="hover:bg-slate-50">
+                <td class="p-3 sm:p-4 font-bold text-agri-900">Túi Zip Hút Chân Không</td>
+                <td class="p-3 sm:p-4">1kg, 2kg, 5kg</td>
+                <td class="p-3 sm:p-4">PA / PE Phức hợp (Bảo quản sâu)</td>
+                <td class="p-3 sm:p-4">18 - 24 Tháng</td>
+                <td class="p-3 sm:p-4"><span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 font-semibold">Siêu thị, Xuất khẩu Mỹ/EU</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="p-3 sm:p-4 font-bold text-agri-900">Bao PP Dệt ghép Màng BOPP</td>
+                <td class="p-3 sm:p-4">10kg, 20kg, 25kg</td>
+                <td class="p-3 sm:p-4">PP dệt + BOPP in ống đồng + Túi lồng PE</td>
+                <td class="p-3 sm:p-4">12 Tháng</td>
+                <td class="p-3 sm:p-4"><span class="px-2 py-0.5 rounded bg-amber-100 text-amber-800 font-semibold">Đại lý nội địa, Trung Quốc, ASEAN</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="p-3 sm:p-4 font-bold text-agri-900">Bao PP Trắng Trơn / In Flexo</td>
+                <td class="p-3 sm:p-4">50kg (Standard)</td>
+                <td class="p-3 sm:p-4">PP Woven fabric (Single/Double seam)</td>
+                <td class="p-3 sm:p-4">12 Tháng</td>
+                <td class="p-3 sm:p-4"><span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-semibold">Xuất khẩu Châu Phi, Philippines, G2G</span></td>
+              </tr>
+              <tr class="hover:bg-slate-50">
+                <td class="p-3 sm:p-4 font-bold text-agri-900">Bao Jumbo Container</td>
+                <td class="p-3 sm:p-4">500kg - 1.000kg</td>
+                <td class="p-3 sm:p-4">PP dệt cường độ cao + 4 Quai cẩu củng cố</td>
+                <td class="p-3 sm:p-4">12 Tháng</td>
+                <td class="p-3 sm:p-4"><span class="px-2 py-0.5 rounded bg-purple-100 text-purple-800 font-semibold">Nhà máy đóng gói lại tại nước ngoài</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WORKFLOW / PROCESS SECTION -->
+  <section class="py-20 bg-agri-900 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <span class="text-xs font-bold tracking-widest text-gold-400 uppercase px-3 py-1 rounded-full bg-white/10 border border-white/20">Quy Trình Làm Việc</span>
+        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">5 Bước Hợp Tác Gia Công & Cung Ứng</h2>
+        <div class="w-16 h-1 bg-gold-500 mx-auto rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+        
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative space-y-3">
+          <span class="w-8 h-8 rounded-full bg-gold-500 text-agri-900 font-bold flex items-center justify-center text-sm">01</span>
+          <h4 class="font-heading font-bold text-base text-gold-400">Tiếp Nhận Nhu Cầu</h4>
+          <p class="text-xs text-slate-300">Tư vấn chọn chủng loại gạo, tỉ lệ tấm và quy cách bao bì tối ưu theo thị trường mục tiêu.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative space-y-3">
+          <span class="w-8 h-8 rounded-full bg-gold-500 text-agri-900 font-bold flex items-center justify-center text-sm">02</span>
+          <h4 class="font-heading font-bold text-base text-gold-400">Gửi Mẫu & Báo Giá</h4>
+          <p class="text-xs text-slate-300">Gửi mẫu gạo kiểm định chất lượng trực tiếp & gửi báo giá cạnh tranh theo giá FOB/CIF.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative space-y-3">
+          <span class="w-8 h-8 rounded-full bg-gold-500 text-agri-900 font-bold flex items-center justify-center text-sm">03</span>
+          <h4 class="font-heading font-bold text-base text-gold-400">Ký Hợp Đồng & OEM</h4>
+          <p class="text-xs text-slate-300">Chốt hợp đồng thương mại, duyệt bản vẽ thiết kế maquette bao bì nhãn hiệu riêng.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative space-y-3">
+          <span class="w-8 h-8 rounded-full bg-gold-500 text-agri-900 font-bold flex items-center justify-center text-sm">04</span>
+          <h4 class="font-heading font-bold text-base text-gold-400">Chế Biến & Đóng Gói</h4>
+          <p class="text-xs text-slate-300">Xát lau bóng, tách màu quang học, đóng gói chính xác khối lượng & kiểm định QC.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15 backdrop-blur-md relative space-y-3">
+          <span class="w-8 h-8 rounded-full bg-gold-500 text-agri-900 font-bold flex items-center justify-center text-sm">05</span>
+          <h4 class="font-heading font-bold text-base text-gold-400">Giao Hàng & Thông Quan</h4>
+          <p class="text-xs text-slate-300">Hoàn thiện chứng thư C/O, Phytosanitary, vận chuyển đường bộ/đường biển đúng tiến độ.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. LIÊN HỆ (CONTACT & QUOTE REQUEST FORM) -->
+  <section id="contact" class="py-20 lg:py-28 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        
+        <!-- Left Contact Info Box -->
+        <div class="lg:col-span-5 space-y-8">
+          <div class="space-y-3">
+            <span class="text-xs font-bold tracking-widest text-gold-600 uppercase px-3 py-1 rounded-full bg-gold-100 border border-gold-300">Kết nối ngay</span>
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-agri-900">Liên Hệ & Yêu Cầu Báo Giá Nông Sản</h2>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Quý khách hàng, Đại lý và Đối tác Xuất khẩu vui lòng điền thông tin hoặc liên hệ trực tiếp với bộ phận Kinh doanh JMAGRI.
+            </p>
+          </div>
+
+          <!-- Info Cards -->
+          <div class="space-y-4">
+            
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-4">
+              <div class="w-10 h-10 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Văn Phòng Trụ Sở Chính:</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Tòa nhà JMAGRI Tower, Số 168 Đường Nguyễn Hữu Thọ, Phước Kiển, Nhà Bè, TP. Hồ Chí Minh</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-4">
+              <div class="w-10 h-10 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-industry"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Nhà Máy Chế Biến & Kho Bãi:</h4>
+                <p class="text-xs text-slate-600 mt-0.5">Khu Công Nghiệp Sông Hậu, Huyện Châu Thành, Tỉnh Hậu Giang / Cần Thơ</p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-4">
+              <div class="w-10 h-10 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Hotline / Zalo Phòng Kinh Doanh:</h4>
+                <p class="text-xs text-slate-600 mt-0.5">
+                  <a href="tel:0988888888" class="font-bold text-agri-800 hover:text-gold-600 mr-3">(+84) 988.888.888</a>
+                  <a href="tel:0977777777" class="font-bold text-agri-800 hover:text-gold-600">(+84) 977.777.777</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start space-x-4">
+              <div class="w-10 h-10 rounded-lg bg-agri-800 text-gold-400 flex items-center justify-center text-lg shrink-0">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <div>
+                <h4 class="font-heading font-bold text-sm text-agri-900">Email Xuất Khẩu & OEM:</h4>
+                <p class="text-xs text-slate-600 mt-0.5">
+                  <a href="mailto:export@jmagri.vn" class="hover:underline text-agri-800 font-semibold mr-3">export@jmagri.vn</a>
+                  <a href="mailto:sales@jmagri.vn" class="hover:underline text-agri-800 font-semibold">sales@jmagri.vn</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Operating Hours Badge -->
+          <div class="p-4 rounded-xl bg-agri-50 border border-agri-200 flex items-center justify-between text-xs text-agri-900">
+            <span class="flex items-center font-semibold"><i class="fa-solid fa-clock text-gold-600 mr-2"></i>Giờ làm việc:</span>
+            <span>Thứ 2 - Thứ 7 (8:00 - 17:30)</span>
+          </div>
+        </div>
+
+        <!-- Right Quote Form -->
+        <div class="lg:col-span-7 bg-[#faf9f5] p-6 sm:p-10 rounded-3xl border border-slate-200 shadow-xl relative">
+          
+          <h3 class="font-heading font-extrabold text-2xl text-agri-900 mb-2">Form Đăng Ký Nhận Báo Giá & Mẫu Thử</h3>
+          <p class="text-xs text-slate-500 mb-6">Vui lòng điền thông tin bên dưới, chuyên viên tư vấn sẽ phản hồi trong 30 phút.</p>
+
+          <!-- Success Notification Banner -->
+          <div id="form-notification" class="hidden mb-6 p-4 rounded-xl bg-emerald-100 border border-emerald-300 text-emerald-900 text-xs font-semibold flex items-center space-x-3">
+            <i class="fa-solid fa-circle-check text-emerald-600 text-xl"></i>
+            <div>
+              <p class="font-bold text-sm">Gửi yêu cầu thành công!</p>
+              <p class="font-normal text-slate-700">Đội ngũ JMAGRI đã nhận được lời nhắn và sẽ liên hệ lại với Quý khách ngay lập tức.</p>
+            </div>
+          </div>
+
+          <form id="quote-form" class="space-y-4">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-name">Họ và tên *</label>
+                <input type="text" id="form-name" required placeholder="Nguyễn Văn A" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-company">Tên Doanh nghiệp / Tổ chức</label>
+                <input type="text" id="form-company" placeholder="Công ty XNK Nông sản..." class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-phone">Số điện thoại / Zalo *</label>
+                <input type="tel" id="form-phone" required placeholder="0901 234 567" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-email">Email liên hệ</label>
+                <input type="email" id="form-email" placeholder="partner@company.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-type">Nhu cầu hợp tác chính</label>
+                <select id="form-type" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all bg-white">
+                  <option value="xuatkhau">Xuất Khẩu Gạo (Export Order)</option>
+                  <option value="oem">Gia Công Bao Bì Nhãn Riêng (OEM/ODM)</option>
+                  <option value="daily">Đăng Ký Đại Lý / Phân Phối Nội Địa</option>
+                  <option value="nguyenlieu">Mua Sỉ Nguyên Liệu Chế Biến Thực Phẩm</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-product">Sản phẩm quan tâm</label>
+                <select id="form-product" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all bg-white">
+                  <option value="st25">Gạo ST25 Hảo Hạng</option>
+                  <option value="jasmine">Gạo Jasmine 85 Premium</option>
+                  <option value="lut">Gạo Lứt Huyết Rồng Organic</option>
+                  <option value="nep">Gạo Nếp Nương Đặc Sản</option>
+                  <option value="kdm">Gạo Thơm KDM Export</option>
+                  <option value="tam">Gạo Tấm Thơm Sạch</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1" for="form-message">Chi tiết đơn hàng / Lời nhắn</label>
+              <textarea id="form-message" rows="4" placeholder="Nhập số lượng dự kiến, quy cách đóng gói (vd: 20 container ST25 5kg bao vacuum)..." class="w-full px-4 py-3 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-agri-800 focus:outline-none transition-all"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-4 rounded-xl bg-agri-800 text-white font-bold text-sm uppercase tracking-wider hover:bg-agri-900 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
+              <i class="fa-solid fa-paper-plane text-gold-400"></i>
+              <span>Gửi Yêu Cầu Báo Giá</span>
+            </button>
+
+            <p class="text-[11px] text-slate-400 text-center pt-2">
+              <i class="fa-solid fa-lock mr-1"></i>Cam kết bảo mật thông tin doanh nghiệp theo tiêu chuẩn GDPR.
+            </p>
+          </form>
+
+        </div>
+
+      </div>
+
+      <!-- FAQ ACCORDION SECTION -->
+      <div class="mt-20 pt-16 border-t border-slate-200 max-w-4xl mx-auto space-y-6">
+        <div class="text-center space-y-2">
+          <h3 class="font-heading font-extrabold text-2xl text-agri-900">Câu Hỏi Thường Gặp (FAQ)</h3>
+          <p class="text-xs text-slate-500">Giải đáp nhanh dành cho đối tác thu mua và xuất khẩu</p>
+        </div>
+
+        <div class="space-y-3">
+          
+          <div class="faq-item border border-slate-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-question w-full p-4 text-left font-heading font-bold text-sm text-agri-900 flex justify-between items-center hover:bg-slate-50">
+              <span>Số lượng đặt hàng tối thiểu (MOQ) cho sản phẩm đóng gói OEM là bao nhiêu?</span>
+              <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+            </button>
+            <div class="faq-answer hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Đối với bao bì in thương hiệu riêng (OEM túi Zip 1kg - 5kg), MOQ thông thường là từ 5.000 túi hoặc 10 tấn gạo thành phẩm. Với bao dệt PP 25kg/50kg, MOQ là 1 container 20ft (khoảng 25 tấn).
+            </div>
+          </div>
+
+          <div class="faq-item border border-slate-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-question w-full p-4 text-left font-heading font-bold text-sm text-agri-900 flex justify-between items-center hover:bg-slate-50">
+              <span>JMAGRI hỗ trợ các hình thức thanh toán quốc tế nào?</span>
+              <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+            </button>
+            <div class="faq-answer hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Chúng tôi chấp nhận linh hoạt các hình thức: L/C Irrevocable at sight (Thư tín dụng không hủy ngang mở tại ngân hàng top thế giới), T/T (Chuyển khoản đặt cọc 30%, 70% còn lại thanh toán khi giao vận đơn B/L).
+            </div>
+          </div>
+
+          <div class="faq-item border border-slate-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-question w-full p-4 text-left font-heading font-bold text-sm text-agri-900 flex justify-between items-center hover:bg-slate-50">
+              <span>Thời gian sản xuất và đóng gói đơn hàng xuất khẩu mất bao lâu?</span>
+              <i class="faq-icon fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+            </button>
+            <div class="faq-answer hidden px-4 pb-4 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              Thời gian hoàn thiện đóng gói trung bình từ 7 – 12 ngày làm việc kể từ khi duyệt mẫu bao bì và chốt hợp đồng. Với các đơn hàng bao bì có sẵn, thời gian xuất xưởng chỉ từ 3 - 5 ngày.
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-agri-900 text-white pt-16 pb-8 border-t border-agri-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+        
+        <!-- Col 1: Brand info -->
+        <div class="md:col-span-4 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gold-500 text-agri-900 flex items-center justify-center text-xl font-bold">
+              <i class="fa-solid fa-wheat-awn"></i>
+            </div>
+            <span class="font-heading font-extrabold text-2xl tracking-wider text-white">JMAGRI</span>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Công ty Cổ phần Nông sản & Thực phẩm JMAGRI Việt Nam – Đơn vị sản xuất, đóng gói và xuất khẩu lúa gạo chất lượng cao chuẩn quốc tế.
+          </p>
+          <div class="flex space-x-3 pt-2">
+            <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-gold-500 hover:text-agri-900 flex items-center justify-center text-sm transition-colors" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-gold-500 hover:text-agri-900 flex items-center justify-center text-sm transition-colors" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="w-9 h-9 rounded-lg bg-white/10 hover:bg-gold-500 hover:text-agri-900 flex items-center justify-center text-sm transition-colors" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="md:col-span-2 space-y-3">
+          <h4 class="font-heading font-bold text-sm text-gold-400 uppercase tracking-wider">Danh Mục</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#hero" class="hover:text-gold-400 transition-colors">Trang chủ</a></li>
+            <li><a href="#about" class="hover:text-gold-400 transition-colors">Về chúng tôi</a></li>
+            <li><a href="#capabilities" class="hover:text-gold-400 transition-colors">Năng lực sản xuất</a></li>
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Sản phẩm Gạo</a></li>
+            <li><a href="#packaging" class="hover:text-gold-400 transition-colors">Quy cách bao bì</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Product List -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="font-heading font-bold text-sm text-gold-400 uppercase tracking-wider">Dòng Sản Phẩm</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Gạo Thơm ST25 Hảo Hạng</a></li>
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Gạo Jasmine 85 Export Grade</a></li>
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Gạo Lứt Huyết Rồng Organic</a></li>
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Gạo Nếp Nương Điện Biên</a></li>
+            <li><a href="#products" class="hover:text-gold-400 transition-colors">Gạo KDM (Khao Dak Mali)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Cloudflare Pages Ready & Deployment Note -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="font-heading font-bold text-sm text-gold-400 uppercase tracking-wider">Cloudflare Pages Ready</h4>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Mã nguồn chuẩn HTML5 static, không phụ thuộc backend server. Sẵn sàng deploy tức thì lên Cloudflare Pages với tốc độ tải trang toàn cầu ưu việt.
+          </p>
+          <div class="p-3 rounded-lg bg-white/10 text-[11px] text-emerald-300 border border-white/15 flex items-center space-x-2">
+            <i class="fa-solid fa-cloud-bolt text-gold-400"></i>
+            <span>Deploy command: <code>npx wrangler pages deploy .</code></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="pt-8 border-t border-agri-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p>© 2026 JMAGRI Vietnam Joint Stock Company. All rights reserved.</p>
+        <p class="flex items-center space-x-4">
+          <a href="#" class="hover:text-slate-200">Chính sách bảo mật</a>
+          <span>•</span>
+          <a href="#" class="hover:text-slate-200">Điều khoản dịch vụ</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- PRODUCT SPECIFICATION MODAL -->
+  <div id="product-modal" class="modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200 space-y-6 max-h-[90vh] overflow-y-auto">
+      
+      <!-- Close Button -->
+      <button id="modal-close" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center text-lg transition-colors">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
+        <div class="w-full sm:w-48 h-48 rounded-2xl overflow-hidden bg-slate-100 shrink-0">
+          <img id="modal-img" src="" alt="Mô tả sản phẩm" class="w-full h-full object-cover">
+        </div>
+        <div class="space-y-2 text-center sm:text-left">
+          <span id="modal-category" class="px-2.5 py-1 rounded-full bg-agri-100 text-agri-800 text-[10px] font-bold uppercase tracking-wider">Danh Mục</span>
+          <h3 id="modal-title" class="font-heading font-extrabold text-2xl text-agri-900">Tên Sản Phẩm</h3>
+          <p id="modal-desc" class="text-xs text-slate-600 leading-relaxed">Mô tả sản phẩm chi tiết...</p>
+        </div>
+      </div>
+
+      <!-- Detail Specs Grid -->
+      <div class="bg-agri-50 p-5 rounded-2xl border border-agri-100 space-y-3">
+        <h4 class="font-heading font-bold text-sm text-agri-900 border-b border-agri-200 pb-2">Thông Số Kỹ Thuật Kiểm Định</h4>
+        
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs">
+          <div>
+            <span class="text-slate-500 block">Độ ẩm tối đa:</span>
+            <strong id="modal-spec-moisture" class="text-agri-900 font-bold">&lt; 14%</strong>
+          </div>
+          <div>
+            <span class="text-slate-500 block">Tỉ lệ hạt vỡ:</span>
+            <strong id="modal-spec-broken" class="text-agri-900 font-bold">Max 5%</strong>
+          </div>
+          <div>
+            <span class="text-slate-500 block">Độ thuần chủng:</span>
+            <strong id="modal-spec-purity" class="text-agri-900 font-bold">99.5%</strong>
+          </div>
+          <div>
+            <span class="text-slate-500 block">Chứng nhận:</span>
+            <strong id="modal-spec-cert" class="text-agri-900 font-bold">ISO, HACCP</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-end space-x-3">
+        <a href="#contact" onclick="document.getElementById('product-modal').classList.remove('active')" class="px-6 py-2.5 rounded-xl bg-agri-800 text-white text-xs font-bold hover:bg-agri-900 transition-all shadow-md">
+          Yêu Cầu Báo Giá Dòng Gạo Này
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

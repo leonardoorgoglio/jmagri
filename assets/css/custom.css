@@ -1,0 +1,134 @@
+/* Custom Styling & Utilities for JMAGRI Corporate Profile */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-green: #1b4332;
+  --accent-gold: #d4af37;
+  --secondary-emerald: #2d6a4f;
+  --cream-bg: #fcfbf7;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #faf9f5;
+  color: #1a2e26;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Outfit', 'Be Vietnam Pro', sans-serif;
+}
+
+/* Glassmorphic Navbar */
+.glass-header {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(27, 67, 50, 0.08);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark-glass-card {
+  background: rgba(20, 45, 35, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Custom Gradients */
+.bg-gradient-agri {
+  background: linear-gradient(135deg, #0d2818 0%, #1b4332 50%, #2d6a4f 100%);
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #f39c12 100%);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #f39c12 0%, #f1c40f 50%, #e67e22 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-green {
+  background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px -10px rgba(27, 67, 50, 0.15);
+}
+
+/* Hero Badge Pulse */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 12px rgba(212, 175, 55, 0);
+  }
+}
+
+.badge-pulse {
+  animation: softPulse 3s infinite ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d6a4f;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b4332;
+}
+
+/* Product Card Image Zoom */
+.card-img-wrapper {
+  overflow: hidden;
+}
+.card-img-wrapper img {
+  transition: transform 0.5s ease;
+}
+.card-img-wrapper:hover img {
+  transform: scale(1.08);
+}
+
+/* Active Tab Highlight */
+.tab-btn.active {
+  background-color: #1b4332;
+  color: #ffffff;
+  border-color: #1b4332;
+  box-shadow: 0 4px 14px rgba(27, 67, 50, 0.25);
+}
+
+/* Modal styles */
+.modal-backdrop {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.modal-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
